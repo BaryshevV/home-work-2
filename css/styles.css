@@ -1,5 +1,11 @@
-body {
-    color: aqua;
-    
+.text-none {
+  text-decoration: none;
+}
 
+.list-none {
+  list-style: none;
+}
+
+img {
+  display: block;
 }
