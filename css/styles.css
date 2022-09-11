@@ -18,12 +18,15 @@
   list-style: none;
 }
 
-img {
-  display: block;
-}
+/* img {
+  display: block; ДЕЛАЛ ВНАЧАЛЕ ПО СОВЕТУ МОЛОДОГО
+} */
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   background-color: var(--primary-background-color);
 }
@@ -33,13 +36,17 @@ button {
   font-family: inherit;
 }
 
-/* ЛОГОТИП */
-.logo {
+/* ХЕДЕР */
+.page-header {
+  background-color: #FFFFFF;
+}
+
+/* ЛОГО-ХЕАДЕР */
+.logo-header {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #000000;
 }
 /* ПЕРВАЯ ЧАСТЬ ЛОГОТИПА */
@@ -49,9 +56,7 @@ button {
 
 /* МЕНЮ */
 .menu-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -63,29 +68,25 @@ button {
   color: var(--accent-color);
 }
 
-/* КОНТАКТ-ОПЦИИ  */
-.contact-option {
-  font-family: 'Roboto', sans-serif;
+/* ХЕДЕР-КОНТАКТ-ОПЦИИ  */
+.header-contact-option {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
-/* КОНТАКТ-ОПЦИИ-ХОВЕР */
-.contact-option:hover,
-.contact-option:focus {
+/* ХЕДЕР-КОНТАКТ-ОПЦИИ-ХОВЕР */
+.header-contact-option:hover,
+.header-contact-option:focus {
   color: var(--accent-color);
 }
 
 /* МОДЕЛЬНАЯ КНОПКА ЗАКАЗАТЬ УСЛУГУ */
 .model-open-btn {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 188% */
   display: flex;
   align-items: center;
   text-align: center;
@@ -106,45 +107,96 @@ button {
 }
 
 .hero-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 
 /* СЕКЦИИ */
+.background-primary {
+  background-color: var(--primary-background-color);
+}
+
 .section-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 /* ОСОБЕННОСТИ */
 .peculiarities-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--primary-text-color);
 }
 
 .peculiarities {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
+/* НАША КОМАНДА */
+
+.background-secondary-team {
+  background-color: var(--secondary-background-color);
+}
+.section-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.section-item-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* ФУТЕР */
+.footer {
+  background-color: #2f303a;
+}
+
+/* ФУТЕР-ЛОГО */
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+/* ФУТЕР-КОНТАКТЫ */
+.footer-contact-item {
+  color: #ffffff;
+}
+
+/* ФУТЕР-КОНТАКТ-АДРЕСС */
+.footer-contact-address {
+  color: #ffffff;
+}
+
+/* ФУТЕР-КОНТАКТ-АДРЕСС-ХОВЕР */
+.footer-contact-address:hover
+.footer-contact-address:focus {
+  color: #ffffff;
+}
+
+/* ФУТЕР-КОНТАКТ-ОПЦИИ */
+.footer-contact-option {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ФУТЕР-КОНТАКТ-ОПЦИИ-ХОФЕР */
+.footer-contact-option:hover,
+.footer-contact-option:focus {
+  color: var(--accent-color);
