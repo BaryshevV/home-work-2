@@ -1,4 +1,4 @@
-/* ПЕРЕМЕННЫЕ */
+/* ==============================......ПЕРЕМЕННЫЕ......===================================== */
 :root {
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -9,13 +9,14 @@
   --secondary-background-color: #f5f4fa;
 }
 
+/* ==========================НАЧИНАЕТСЯ РАЗМЕТКА INDEX.HTML=================================== */
 /* ОСНОВНОЕ */
-.text-none {
-  text-decoration: none;
+a {
+   text-decoration: none;
 }
 
-.list-none {
-  list-style: none;
+ul {
+  list-style: none; 
 }
 
 /* img {
@@ -68,6 +69,11 @@ button {
   color: var(--accent-color);
 }
 
+
+.current {
+  color: var(--accent-color);
+}
+
 /* ХЕДЕР-КОНТАКТ-ОПЦИИ  */
 .header-contact-option {
   font-weight: 500;
@@ -117,10 +123,6 @@ button {
 }
 
 /* СЕКЦИИ */
-.background-primary {
-  background-color: var(--primary-background-color);
-}
-
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -129,7 +131,20 @@ button {
   color: var(--primary-text-color);
 }
 
-/* ОСОБЕННОСТИ */
+/* ОСОБЕННОСТИ заголовок скрыт */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .peculiarities-title {
   font-weight: 700;
   line-height: 1.14;
@@ -185,18 +200,20 @@ button {
   color: #ffffff;
 }
 
-/* ФУТЕР-КОНТАКТ-АДРЕСС-ХОВЕР */
-.footer-contact-address:hover
-.footer-contact-address:focus {
-  color: #ffffff;
-}
-
 /* ФУТЕР-КОНТАКТ-ОПЦИИ */
 .footer-contact-option {
   color: rgba(255, 255, 255, 0.6);
 }
 
+
+
 /* ФУТЕР-КОНТАКТ-ОПЦИИ-ХОФЕР */
 .footer-contact-option:hover,
 .footer-contact-option:focus {
-  color: var(--accent-color);
+ color: var(--accent-color); 
+
+
+/* =======================ЗАКАНЧИВАЕТСЯ РАЗМЕТКА INDEX.HTML=================================== */
+
+
+/* ======================НАЧИНАЕТСЯ РАЗМЕТКА PORTFOLIO.HTML=================================== */
