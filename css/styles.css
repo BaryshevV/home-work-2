@@ -12,11 +12,11 @@
 /* ==========================НАЧИНАЕТСЯ РАЗМЕТКА INDEX.HTML=================================== */
 /* ОСНОВНОЕ */
 a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-  list-style: none; 
+  list-style: none;
 }
 
 /* img {
@@ -39,7 +39,7 @@ button {
 
 /* ХЕДЕР */
 .page-header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* ЛОГО-ХЕАДЕР */
@@ -68,7 +68,6 @@ button {
 .menu-link:focus {
   color: var(--accent-color);
 }
-
 
 .current {
   color: var(--accent-color);
@@ -133,16 +132,16 @@ button {
 
 /* ОСОБЕННОСТИ заголовок скрыт */
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .peculiarities-title {
@@ -205,15 +204,28 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 
-
-
 /* ФУТЕР-КОНТАКТ-ОПЦИИ-ХОФЕР */
 .footer-contact-option:hover,
 .footer-contact-option:focus {
- color: var(--accent-color); 
-
+  color: var(--accent-color);
+}
 
 /* =======================ЗАКАНЧИВАЕТСЯ РАЗМЕТКА INDEX.HTML=================================== */
 
-
 /* ======================НАЧИНАЕТСЯ РАЗМЕТКА PORTFOLIO.HTML=================================== */
+
+/* ФИЛЬТР-КНОПКА */
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+/* ФИЛЬТР-КНОПКА-ХОФЕР */
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
