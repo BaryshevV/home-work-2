@@ -229,3 +229,20 @@ button {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+
+/* ФИЛЬТР-ЗАГОЛОВКИ-ПОЗИЦИЙ */
+.filter-position-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+/* ФИЛЬТР-ПАРАГРАФЫ */
+.filter-position-about {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
