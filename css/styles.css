@@ -5,23 +5,44 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
-  --primary-background-color: #f5f5f5;
-  --secondary-background-color: #f5f4fa;
+  --primary-background-color: #ffffff;
+  ---team-background-color: #f5f4fa;
 }
 
 /* ==========================НАЧИНАЕТСЯ РАЗМЕТКА INDEX.HTML=================================== */
 /* ОСНОВНОЕ */
 a {
   text-decoration: none;
+  display: block;
 }
 
 button {
   border: none;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-left: 0px;
+  padding: 0px;
 }
+
+/* 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ */
 
 /* img {
   display: block; ДЕЛАЛ ВНАЧАЛЕ ПО СОВЕТУ МОЛОДОГО
@@ -162,7 +183,7 @@ button {
 /* НАША КОМАНДА */
 
 .background-secondary-team {
-  background-color: var(--secondary-background-color);
+  background-color: var(---team-background-color);
 }
 .section-item {
   font-weight: 500;
@@ -177,6 +198,10 @@ button {
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
+}
+
+.card {
+  background-color: var(--primary-background-color);
 }
 
 /* ФУТЕР */
